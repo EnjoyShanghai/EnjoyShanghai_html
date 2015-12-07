@@ -1,0 +1,427 @@
+﻿
+#register {
+    height: 0px auto;
+    width: 610px;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+.sim {
+    font-family: robotobold;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.fas {
+    margin-top: 5px;
+    width: 170px;
+    height: 60px;
+}
+
+
+
+.flat .property_icon {
+    margin-top: 5px;
+    background-position: -16px -435px;
+}
+
+.flat {
+    font-size: 12px;
+    font-family: robotomedium;
+    color: #9b9b9b;
+    width: 110px;
+    float: left;
+}
+
+.flat1 {
+    padding-top: 10px;
+    float: left;
+    margin-left: 10px;
+    font-family: robotobold_condensed;
+    color: #e13627;
+    font-size: 18px;
+}
+
+.strMessage{
+    font-size: 12px;
+    padding-left: 20px;
+    position: relative;
+    font-family: robotolight;
+    text-align: left;
+    color: #666666;
+    line-height: 150%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 170px;
+    overflow: hidden;
+}
+
+#intro .strMessage {
+    color: #e9534b;
+}
+
+.left-side .button {
+    width: 30px;
+    height: 320px;
+    position: relative;
+    float: left;
+}
+
+    .left-side .button ul li {
+        width: 30px;
+        height: 66px;
+        position: relative;
+        float: left;
+    }
+
+.button ul li.selected {
+    background: url('../icon/tab.png');
+    width: 28px;
+    float: right;
+}
+
+.button ul li.rest {
+    background: url('../icon/tab_disabled.png');
+    background-position: 0px 69px;
+}
+
+#center {
+    text-align: left;
+}
+
+
+.center-cen {
+    margin-left: 20px;
+    background-color: white;
+    width: 610px;
+    position: relative;
+    /*  overflow:hidden;*/
+    float: left;
+    height:0px auto ;
+}
+
+.fixed {
+    position: fixed;
+}
+/*中间*/
+
+.box-title, .center-cen #intro h2 {
+    color: #E9534B;
+    margin-top: 20px;
+    font-size: 28px;
+}
+.intro h2{
+    color: #E9534B;
+margin-top: 20px;
+font-size: 28px;
+margin-left: 20px
+}
+.box-out{
+    text-align: left;
+}
+#box-left {
+    width: 360px;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.center-cen textarea{
+    box-shadow: inset 1px 1px 1px grey;
+background-color: #f3f3f3;
+width: 310px;
+height: 70px;
+padding-top: 10px;
+padding-right: 10px;
+font-size: 11px;
+color: #9b9b9b;
+padding-left: 20px;
+font-family: Georgia;
+font-style: italic;
+}
+.center-cen .text,.center-cen input[type=text]{
+    box-shadow: inset 1px 1px 1px grey;
+    background-color: #f3f3f3;
+    width: 320px;
+    height: 35px;
+    font-size: 11px;
+    color: #9b9b9b;
+    padding-left: 20px;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.replyForm p {
+    line-height: 170%;
+}
+
+.label, .strInstruction, .alert, .replyForm p, .instruction {
+    font-family: "robotolight";
+    color: #4a4a4a;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.label{
+    padding-left: 0px;
+}
+
+.instruction {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.required {
+    color: red;
+}
+
+.male {
+    font-family: "robotolight";
+    color: #4a4a4a;
+    font-size: 12px;
+}
+
+.fem {
+    font-family: "robotolight";
+    color: #4a4a4a;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.list {
+    font-size: 12px;
+    color: #9b9b9b;
+    padding-left: 20px;
+    font-family: Georgia;
+    font-style: italic;
+    box-shadow: inset 1px 1px 1px grey;
+    background-color: #f3f3f3;
+    width: 130px;
+    height: 35px;
+}
+
+.row {
+    padding-top: 15px;
+}
+.row .sectionList li{
+    color: #4a4a4a;
+    text-align: left;
+}
+.box-out .box-in .row .sectionList li input{
+    margin: 2px;
+}
+.box-out .box-in .row input.save{
+    float: left;
+    width:150px;
+    margin-bottom: 20px;
+}
+.row ul li{
+    color: #e13627;
+    font-size: 12px;
+    font-family: robotolight;
+}
+#box-right {
+    width: 150px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.checkbox {
+    box-shadow: inset 1px 1px 1px grey;
+    background-color: #f3f3f3;
+    color: red;
+}
+
+.subb {
+    color: #666;
+    margin-top: 2px;
+    float: left;
+    width: 14px;
+    margin-top: 15px;
+}
+
+.su {
+    margin-top: 20px;
+    height: 70px;
+}
+
+.sub {
+    float: left;
+    color: #666;
+    margin-left: 5px;
+    font-family: "robotocondensed";
+    width: 130px;
+    font-family: robotolight;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.subbb {
+    font-family: robotolight;
+    color: #666;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.save {
+    color: #FFF;
+    background-color: #CA3023;
+    border-style: solid;
+    border-color: #FFF;
+    font-family: robotolight;
+    font-size: 14px;
+    text-align: center;
+    width: 150px;
+    margin-top: 20px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.sectionList {
+    padding-bottom: 10px;
+    font-family: "robotolight";
+    color: #4a4a4a;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.left-side h2 {
+    color: #e9534b;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.box-in {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+
+div.box-in div.row ul.sectionList div#jobCat {
+    font-size: 12px;
+    padding: 5px 5px 5px 30px;
+}
+#sideba.left-side{
+    width: 180px;
+}
+#center-cen #intro{
+background-color: white;
+width: 610px;
+position: relative;
+float: left;
+text-align: left;
+padding-bottom: 20px;
+}
+#intro h3{
+    margin-left: 30px;
+    margin-top: 5px;
+    color: #e13627;
+}
+#center-cen #intro h2{
+    margin:30px 30px 0px 30px;
+}
+#center-cen #intro p{
+    margin: 20px 50px 0 30px;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+#intro a{
+    color: #e13627;
+}
+#sideba #intro p{
+    color: #666666;
+float: left;
+font-family: robotolight;
+font-size: 12px;
+line-height: 150%;
+overflow: hidden;
+padding-bottom: 20px;
+position: relative;
+text-align: left;
+width: 170px;
+}
+.addPhoto a{
+    font-family: "robotolight";
+color: #e13627;
+font-size: 12px;
+}
+/*acitveAd*/
+#acitveAd{
+    margin-left: 20px;
+}
+#acitveAd strong,#acitveAd strong span{
+    font-family: "robotolight";
+color: #4a4a4a;
+font-size: 12px;
+padding-top: 5px;
+padding-bottom: 3px;
+}
+#acitveAd input[type=text]{
+    box-shadow: inset 1px 1px 1px grey;
+background-color: #f3f3f3;
+width: 320px;
+height: 35px;
+font-size: 11px;
+color: #9b9b9b;
+padding-left: 20px;
+font-family: Georgia;
+font-style: italic;
+}
+#acitveAd #password{
+        box-shadow: inset 1px 1px 1px grey;
+background-color: #f3f3f3;
+width: 320px;
+height: 35px;
+font-size: 11px;
+color: #9b9b9b;
+padding-left: 20px;
+font-family: Georgia;
+font-style: italic;
+}
+#acitveAd input[type=submit]{
+    color: #FFF;
+background-color: #CA3023;
+border-style: solid;
+border-color: #FFF;
+font-family: robotolight;
+font-size: 14px;
+text-align: center;
+width: 150px;
+margin-top: 20px;
+height: 35px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+#acitveAd .rowLeft{
+    font-family: "robotolight";
+color: #4a4a4a;
+font-size: 12px;
+padding-top: 5px;
+padding-bottom: 3px;
+}
+#acitveAd .boxTitle{
+    color: #E9534B;
+font-size: 20px;
+}
+.intro .strMessage{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.intro .strMessage strong{
+    font-family: robotobold;
+    color: #e13627;
+
+}
+.cr_list{
+   margin-left: 50px;
+font-size: 12px;
+line-height: 1.5;
+font-family: robotoregular;
+margin-right: 30px;
+}
+.cr_list li{
+    list-style-type: disc;
+}

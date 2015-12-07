@@ -1,0 +1,483 @@
+/* Ion.RangeSlider, Nice Skin
+// css version 1.9.2
+// © 2013-2014 Denis Ineshin | IonDen.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Skin details */
+
+.irs-line-mid,
+.irs-line-left,
+.irs-line-right,
+.irs-diapason,
+.irs-slider {
+    background: url(../images/icon/sprite-skin-nice.png) repeat-x;
+}
+
+.irs {
+    height: 40px;
+}
+.irs-with-grid {
+    height: 60px;
+}
+.irs-line {
+    height: 8px; top: 25px;
+}
+.irs-line-left {
+    height: 8px;
+    background-position: 0 -30px;
+}
+.irs-line-mid {
+    height: 8px;
+    background-position: 0 0;
+}
+.irs-line-right {
+    height: 8px;
+    background-position: 100% -30px;
+}
+
+.irs-diapason {
+    height: 8px; top: 25px;
+    background-position: 0 -60px;
+}
+
+.irs-slider {
+    width: 22px; height: 22px;
+    top: 17px;
+    background-position: 0 -90px;
+}
+#irs-active-slider, .irs-slider:hover {
+    background-position: 0 -120px;
+}
+
+.irs-min, .irs-max {
+    color: #f2f2f2;
+    font-size: 10px; line-height: 1.333;
+    text-shadow: none;
+    top: 0; padding: 1px 3px;
+    border-radius: 3px;
+}
+.lt-ie9 .irs-min, .lt-ie9 .irs-max {
+    background: #ccc;
+}
+
+.irs-from, .irs-to, .irs-single {
+    color: #e13626;
+    line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+.lt-ie9 .irs-from, .lt-ie9 .irs-to, .lt-ie9 .irs-single {
+    background: #999;
+}
+
+.irs-grid-pol {
+    background: #99a4ac;
+}
+.irs-grid-text {
+    color: #99a4ac;
+}
+
+.irs-disabled {
+}
+.irs {
+    position: relative; display: block;
+}
+.irs-line {
+    position: relative; display: block;
+    overflow: hidden;
+}
+.irs-line-left, .irs-line-mid, .irs-line-right {
+    position: absolute; display: block;
+    top: 0;
+}
+.irs-line-left {
+    left: 0; width: 10%;
+}
+.irs-line-mid {
+    left: 10%; width: 80%;
+}
+.irs-line-right {
+    right: 0; width: 10%;
+}
+
+.irs-diapason {
+    position: absolute; display: block;
+    left: 0; width: 100%;
+}
+.irs-slider {
+    position: absolute; display: block;
+    cursor: default;
+    z-index: 1;
+}
+.irs-slider.single {
+    left: 10px;
+}
+.irs-slider.single:before {
+    position: absolute; display: block; content: "";
+    top: -50%; left: -100%;
+    width: 300%; height: 200%;
+    background: rgba(0,0,0,0.0);
+}
+.irs-slider.from {
+    left: 100px;
+}
+.irs-slider.from:before {
+    position: absolute; display: block; content: "";
+    top: -50%; left: -200%;
+    width: 300%; height: 200%;
+    background: rgba(0,0,0,0.0);
+}
+.irs-slider.to {
+    left: 300px;
+}
+.irs-slider.to:before {
+    position: absolute; display: block; content: "";
+    top: -50%; left: 0;
+    width: 300%; height: 200%;
+    background: rgba(0,0,0,0.0);
+}
+.irs-slider.last {
+    z-index: 2;
+}
+
+.irs-min {
+    position: absolute; display: block;
+    left: 0;
+    cursor: default;
+}
+.irs-max {
+    position: absolute; display: block;
+    right: 0;
+    cursor: default;
+}
+
+.irs-from, .irs-to, .irs-single {
+    position: absolute; display: block;
+    top: 0; left: 0;
+    cursor: default;
+    white-space: nowrap;
+}
+
+
+.irs-grid {
+    position: absolute; display: none;
+    bottom: 0; left: 0;
+    width: 100%; height: 20px;
+}
+.irs-with-grid .irs-grid {
+    display: block;
+}
+.irs-grid-pol {
+    position: absolute;
+    top: 0; left: 0;
+    width: 1px; height: 8px;
+    background: #000;
+}
+.irs-grid-pol.small {
+    height: 4px;
+}
+.irs-grid-text {
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 9px; line-height: 9px;
+    color: #000;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+#cen {
+    width: 820px;
+    float: left;
+}
+
+#sidebar.left-side {
+    float: left;
+    width: 180px;
+    height: 0px auto;
+}
+
+#advanced {
+    width: 180px;
+    height: 0px auto;
+}
+
+
+#sidebar {
+    float: left;
+    width: 610px;
+    height: 0px auto;
+}
+
+
+
+
+#v {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    padding-left: 15px;
+    color: #5e5b5b;
+    font-family: robotolight;
+    font-size: 12px;
+    color: #9b9b9b;
+    text-align: left;
+
+}
+
+#m {
+    float: right;
+    color: black;
+    margin-top: 10px;
+}
+.select75{
+    width: 45px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-family: robotocondensed;
+    float: left;
+    margin-top: 2px;
+    margin-left:5px;
+}
+
+#advanced .submit {
+    overflow: hidden;
+    color: white;
+    font-family: robotolight;
+    background-color: #e13627;
+    width: 180px;
+    font-size: 14px;
+    padding: 10px 0;
+    margin-left: 1px;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#sda a {
+    color: white;
+}
+
+#sda a:hover {
+    color: white;
+}
+
+.results{
+    width: 100%;
+}
+
+
+.postback{
+    background: url('../images/icon/POST(1).png');
+    width: 119px;
+    height: 89px;
+    margin: 0 auto;
+}
+
+.post {
+    z-index: 2;
+    padding-top: 25px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: robotobold_condensed;
+}
+
+.post-service {
+    font-size: 16px;
+}
+
+input[type=text],select{
+    -moz-box-shadow: inset 0px 1px 3px 0px #d5d5d5;
+    -webkit-box-shadow: inset 0px 1px 3px 0px #d5d5d5;
+    box-shadow: inset 0px 1px 3px 0px #d5d5d5;
+}
+
+.left-side .box-title {
+    color: #E13627;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: robotocondensed;
+    text-align: left;
+    margin: 10px 0;
+}
+
+#advanced form .row .label{
+    font-family: robotolight;
+    font-size: 12px;
+    color: black;
+    padding-left: 4px;
+    text-align: left;
+    margin: 5px 0 0;
+    float: left;
+}
+#advanced form .row strong{
+    font-family: robotolight;
+    font-size: 12px;
+    padding-left: 15px;
+    color: black;
+    text-align: left;
+    margin: 10px 0;
+    float: left;
+}
+
+#categoryid{
+    width: 180px;
+    height: 30px;
+    text-align: left;
+}
+
+.left-side input[type=radio]{
+    float: left;
+    margin-top: 11px;
+    margin-left: 7px;
+}
+#advanced form .row #Keywords{
+    margin-top: 0px;
+}
+#advanced form .row #Keywords,#Text3 {
+    width: 175px;
+    height: 30px;
+    font-family: robotocondensed;
+    font-size: 12px;
+    color: #4a4a4a;
+    text-align: left;
+    padding-left: 5px;
+
+    }   #tel {
+        width: 165px;
+        height: 30px;
+        margin-top: 10px;
+        font-family: robotocondensed;
+        font-size: 12px;
+        color: #4a4a4a;
+        padding-left: 15px;
+        text-align: left;
+
+    }
+
+    .rang{
+        position: relative; width: 180px; font-size: 12px;
+    }
+    #range_1{
+       font-family: robotobold;
+       font-size: 14px;
+
+   }
+
+   .irs {
+    position: relative; display: block;
+}
+.irs-line {
+    position: relative; display: block;
+    overflow: hidden;
+}
+.irs-line-left, .irs-line-mid, .irs-line-right {
+    position: absolute; display: block;
+    top: 0;
+}
+.irs-line-left {
+    left: 0; width: 10%;
+}
+.irs-line-mid {
+    left: 10%; width: 80%;
+}
+.irs-line-right {
+    right: 0; width: 10%;
+}
+
+.irs-diapason {
+    position: absolute; display: block;
+    left: 0; width: 100%;
+}
+.irs-slider {
+    position: absolute; display: block;
+    cursor: default;
+    z-index: 1;
+}
+.irs-slider.single {
+    left: 10px;
+}
+.irs-slider.single:before {
+    position: absolute; display: block; content: "";
+    top: -50%; left: -100%;
+    width: 300%; height: 200%;
+    background: rgba(0,0,0,0.0);
+}
+.irs-slider.from {
+    left: 100px;
+}
+.irs-slider.from:before {
+    position: absolute; display: block; content: "";
+    top: -50%; left: -200%;
+    width: 300%; height: 200%;
+    background: rgba(0,0,0,0.0);
+}
+.irs-slider.to {
+    left: 300px;
+}
+.irs-slider.to:before {
+    position: absolute; display: block; content: "";
+    top: -50%; left: 0;
+    width: 300%; height: 200%;
+    background: rgba(0,0,0,0.0);
+}
+.irs-slider.last {
+    z-index: 2;
+}
+
+.irs-min {
+    position: absolute; display: block;
+    left: 0;
+    cursor: default;
+}
+.irs-max {
+    position: absolute; display: block;
+    right: 0;
+    cursor: default;
+}
+
+.irs-from, .irs-to, .irs-single {
+    position: absolute; display: block;
+    top: 0; left: 0;
+    cursor: default;
+    white-space: nowrap;
+}
+
+
+.irs-grid {
+    position: absolute; display: none;
+    bottom: 0; left: 0;
+    width: 100%; height: 20px;
+}
+.irs-with-grid .irs-grid {
+    display: block;
+}
+.irs-grid-pol {
+    position: absolute;
+    top: 0; left: 0;
+    width: 1px; height: 8px;
+    background: #000;
+}
+.irs-grid-pol.small {
+    height: 4px;
+}
+.irs-grid-text {
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 9px; line-height: 9px;
+    color: #000;
+}

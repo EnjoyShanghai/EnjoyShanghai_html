@@ -1,0 +1,18 @@
+.buysell .classify{
+    max-width: none!important;
+    margin-bottom: 5px;
+    height: auto;
+}
+.buysell .bdate{
+    border-left: none;
+    width: 150px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.buysell .btext{
+    padding-bottom: 5px;
+}
+.bottomborder{
+	border-bottom: 1px solid #dbdbdb;
+}

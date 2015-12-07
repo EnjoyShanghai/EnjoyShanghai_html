@@ -1,0 +1,375 @@
+
+/*Jobs*/
+.pageList a:visited,.pageList a:link{
+	color:#666666;
+}
+
+#contentContainer{
+	position: relative;
+	width: 1048px;
+	padding-bottom: 20px;
+	margin: 10px auto;
+	background-color: #F2F2F2;
+}
+#sidebar{
+	left:0px;
+	width: 180px;
+	float: left;
+}
+#sidebar .sidebar{
+	float:right;position:relative;width:180px;
+}
+
+#center-side{
+	position: relative;
+}
+
+#center-side .center-side{
+	width: 610px;
+	float:left;
+	margin-left: 20px;
+}
+.center-side .head{
+	width: 90%;
+	margin:0 auto;
+	position: relative;
+	margin-top: 30px;
+	border-bottom: 2px solid #dbdbdb;
+	padding-bottom: 5px;
+}
+.center-side .head h1{
+	color: #e13627;
+	font-size: 28px;
+	font-family: robotocondensed;
+	float: left;
+	width: 350px;
+	text-align: left;
+}
+.center-side .head p,.center-side .head p span{
+	color: 11px;
+	font-family: georgia;
+	font-style: italic;
+	color: #9b9b9b;
+	float: right;
+}
+.center-side .head p{
+	bottom:5px;
+	right: 0px;
+	position: absolute;
+}
+.center-side .body{
+	margin:20px auto;
+	position: relative;
+	width: 90%;
+}
+.center-side .body .article{
+	float: left;
+	width: 320px;
+}
+.center-side .body .article h2{
+	font-size: 16px;
+	color: #4a4a4a;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.center-side .body .article p{
+	font-size: 12px;
+	font-family: robotolight;
+	color: #4a4a4a;
+	text-align: left;
+	margin: 10px 0;
+}
+.center-side .body .enjoy{
+	width: 220px;
+}
+.center-side .body .enjoy .information{
+	margin: 30px auto;
+}
+
+.right-side{
+	width:220px;
+	float:right;
+	position: relative;
+	/*height: 2100px;*/
+	/*  padding-bottom:100000px;margin-bottom:-100000px;*/
+}
+
+/*listbox*/
+.jobs_listings{
+	width: 550px;
+	margin-top: 10px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.jobs_listings ul li{
+	
+
+}
+#listbox{
+	background-color: white;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#listbox .inside{
+	padding: 20px 30px;
+}
+#listbox .listtitle{
+	color: #e13626;
+	font-size: 18px;
+	width: 100%;
+	text-align: left;
+}
+#listbox .inside_ul{
+	float: left;
+	padding-left: 0;
+	width: 100%;
+}
+#listbox ul li{
+	float: left;
+}
+#listbox .inside_ul .inside_li{
+	float: left;
+	margin-right: 20px;
+}
+
+#listbox .inside_ul .inside_li:last-child{
+	float: right;
+	margin-right: 0px;
+}
+#listbox .paidLogo{
+	width: 170px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+#listbox .inside_ul .inside_li img{
+	max-width: 170px;
+	max-height: 100px;
+}
+#listbox .inside_ul .inside_li img:hover{
+	-webkit-filter:brightness(.8);
+	filter:brightness(.8);
+	-moz-filter:brightness(.8);
+}
+
+#listbox .inside_ul .inside_li .company_name{
+	font-size: 14px;
+	font-family: robotobold;
+	width: 170px;
+	margin-top: 5px;
+	border-bottom: 1px solid #b2b2b2;
+	padding-bottom: 5px;
+	color: #e13626;
+	text-align: left;
+}
+
+#listbox .inside_ul .inside_li p{
+	width: 170px;
+	border-bottom: 1px solid #f2f2f2;
+	font-size: 12px;
+	line-height: 12px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-align: left;
+	margin:0 auto;
+	font-family: robotolight;
+	color: black;
+}
+#listbox .inside_ul .inside_li p:hover{
+	background-color: #f2f2f2;
+	color: #E9534A;
+	font-weight: bold;
+}
+.preNext{
+	width: 16px;
+	height: 25px;
+	position: absolute;
+	top: 85px;
+	background: url('../images/icon/arrow26.png') no-repeat 0 0;
+	cursor: pointer;
+	-webkit-filter: brightness(.7);
+	filter: brightness(.7);
+	-moz-filter: brightness(.7);
+}
+#listbox .next{
+	background-position: -16px 0;
+	right: 10px;
+	top: 50%;
+}
+#listbox .pre{
+	left: 10px;
+	top: 50%;
+}
+/*categories*/
+#categories{
+	background-color: white;
+	position: relative;
+	margin-bottom: 2px;
+}
+
+#categories .inside{
+	padding:20px 10px;
+}
+
+#categories .title{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.rotate{
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+#categories .title h1{
+	color: #e13626;
+	font-size: 18px;
+	float: left;
+	cursor: pointer;
+}
+
+#categories .title .seemore{
+	background: url('../images/icon/go.png');
+	background-position: -36px 0px;
+	float: left;
+	width: 18px;
+	margin-top: 4px;
+	margin-left: 5px;
+	height: 18px;
+}
+
+.categories_list ul li{
+	padding:15px 0;
+	margin:0 5px;
+	float: left;
+	width: 580px;
+}
+.greybackground{
+	background-color: #f2f2f2;
+}
+.category{
+	width: 570px;
+	background-color: white;
+	position: absolute;
+	margin: 0 10px;
+	display: none;
+}
+.category a{
+	float: left;
+	margin-left: 20px;
+	width: 150px;
+	border-bottom: 1px solid #EEEFF0;
+	padding-bottom: 10px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 13px;
+	font-family: robotocondensed;
+	color: black;
+}
+.category a:hover{
+	color:#E13626;
+	background-color: #f2f2f2;
+	
+}
+.categories_list .left h2{
+	font-size: 15px;
+	color: #4a4a4a;
+	font-family: robotomedium;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.categories_list .left h2:hover{
+	color: #e13626
+}
+.categories_list .left p{
+	font-size: 12px;
+	color: black;
+	text-align: left;
+	font-family: robotoregular;
+}
+.categories_list .right img{
+	margin-right: 20px;
+	margin-right: 20px;
+}
+.categories_list .right p{
+	font-size: 13px;
+	color: #666666;
+	text-align: right;
+	margin-bottom: 5px;
+}
+.categories_list .right{
+	float: right;
+}
+.categories_list .left span{
+	font-size: 12px;
+	font-family: robotolight;
+	font-style: italic;
+	text-align: right;
+	color: #d3d3d3;
+	float: right;
+}
+.categories_list p.description{
+	font-size: 12px;
+	font-family: robotolight;
+	color: black;
+	letter-spacing: 0.3px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.categories_list ul li form span.keywords{
+	float: none!important;
+	color: #e13627!important;
+	font-style: inherit!important;
+	font-family: inherit!important;
+	text-align: left!important;
+	font-size: inherit!important;
+}
+.grey .time{
+	margin-left: 2px;
+}
+.grey .time-posted{
+	margin-left: 10px;
+}
+#company_logo{
+	width: 150px;
+	height: 100px;
+}
+.collect,.apply{
+	width: 26px;
+	height: 25px;
+	margin-top:10px;
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+	background:url('../images/icon/icon25.png');
+}
+.collect.yes{
+	background-position: 0px 0px;
+}
+.collect.no{
+	background-position: -25px 0px;
+}
+.apply.no{
+	background-position: -25px -25px;
+}
+.apply.yes{
+	background-position: 0px -25px;
+}
+.categories_list .left{
+	margin:0px 20px 0px 15px;
+	float: left;
+}
+.besidelogo{
+	margin:10px 20px;
+}
+.pri,.bed2{
+	float: left;
+}
+.grey p{
+	float: left;
+}
+/*Jobs*/
+

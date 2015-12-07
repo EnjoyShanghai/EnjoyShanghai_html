@@ -1,0 +1,734 @@
+/*========= Box Container =========================================*/
+/*
+<div class="boxContainer">
+<span class="boxTitle">Title Here</span>
+<div class="instruction">Instructions here</div>
+<div class="rowLeft">Stuff here</div>
+</div>
+*/
+
+strong{
+	font-family: robotobold;
+	font-weight: normal;
+}
+#content{
+	width: 1048px;
+	margin: 10px auto;
+
+}
+.column{
+	position: relative;
+	
+}
+#left{float: left;
+	width: 190px;
+	display: inline;
+	margin-top: -11px;
+}
+#middle{
+	float: right;
+	width: 770px;
+	text-align: left;
+	background-color: white;
+	padding: 20px;
+}
+#middle #middleContent{
+	margin: 0 115px 0 43px;
+	padding-top: 15px;
+}
+div.box-title span, div#middle h1, div#middle h2, div#middle h3, div#middle a, div#right a, div#middle span.user, div#right div#clientVoucher p strong, div#middle #listing h3.list a.user:hover, div#middle #listing span.more a.user, div#middle #listing div.actions a:hover, div#middle #listing div.itemFoot div.recommend span.recommendNum span, div#middle #listing .actionStatus select option, #listing div.itemFoot span.classA, div#middle div.box-in div.row div.addPhoto a{
+	color: #444444;
+
+}
+div#middle h2, div#middle h3{
+
+}
+#intro{
+	text-align: left;
+}
+#intro h2{
+	font-weight: bold;
+	font-size: 140%;
+	margin-top: 8px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #666666;
+}
+
+div#middle p{
+	font-size: 14px;
+	line-height: 170%;
+	font-family: robotolight;
+	color: #666666;
+}
+#intro p{
+	margin-top: 10px;
+}
+#intro h3{
+	font-weight: bold;
+	margin-top: 0px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #666666;
+}
+#intro ul{
+	list-style: decimal outside none;
+	margin-top: 20px;
+}
+#intro ul li{
+	font-size: 14px;
+	font-family: robotolight;
+	color: #666666;
+}
+.form-muti{
+	margin: 20px;
+}
+#intro ul li a:hover strong,#intro ul li a:hover{
+	color: #e13267;
+}
+div#middle ol, div#middle ul{
+	color: #666666;
+	line-height: 160%;
+    padding-left: 20px;
+}
+#left_menu{
+	background: url(/images/colors/default/arrow-down.gif) no-repeat scroll 50% 8px #CCCCCC;
+	margin-bottom: 50px;
+	margin-left: 15px;
+	width: 170px;
+}
+
+#left_menu .top{
+	height: 25px;
+	background: url(/images/newenjoy/home/bg-line.png) repeat-x top;
+}
+#middle table{
+	font-size: 13px;
+	color: #666666;
+	table-layout: fixed;
+}
+#left_menu div.main{
+	background-color: #999999;
+	margin: 0;
+	text-align: left;
+}
+#left_menu .bottom{
+	background: url(/images/colors/user/menu-bottom.gif) no-repeat bottom;
+	height: 13px;
+}
+#left_menu div.main ul.section{
+	border-top: 1px solid #4E4B4B;
+	margin: 0;
+	padding: 0;
+	float: none;
+}
+.section{
+	height: auto;
+	width: auto;
+	color: #333;
+	font-size: 13px;
+}
+#left_menu div.main ul.section li{
+	border-bottom: 1px solid #4E4B4B;
+	color: #FFFFFF;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+#left_menu div.main ul.section li.on a.on{
+	background: url(/images/colors/user/arrow-side.png) no-repeat 15px center;
+}
+#left_menu div.main ul.section li a{
+	color: #FFFFFF;
+	display: block;
+	font-size: 14px;
+	margin: 0;
+	padding: 4px 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 160px;
+}
+#left_menu div.main ul.section li.on ul.category{
+	background-color: #666666;
+	border-bottom: medium none;
+	border-top: 1px solid #4E4B4B;
+}
+#left_menu div.main ul.section li.on ul.category li.on{
+	background: url(/images/colors/default/circle.png) no-repeat scroll 3px 5px transparent;
+}
+#left_menu div.main ul.section li.on ul.category li{
+	border-bottom: medium none;
+}
+#left_menu div.main ul.section ul.category li.on a.on{
+	background-image: none;
+}
+#left_menu div.main ul.section li.on ul.category li a:hover{
+	background-color: #555;
+}
+#left_menu div.main ul.section li.on ul.category li a{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 2px 5px 3px 15px;
+	text-align: left;
+	width: 150px;
+}
+tr{
+	
+	
+}
+table.general {
+	width:100%;
+	margin:5px 0px;
+}
+table.general td {
+	padding: 2px 5px;
+}
+table.general td.l {
+	width:110px;
+	text-align:right;
+	font-size:12px;
+	font-weight:bold;
+}
+.form-muti table.general{ width:70%;}
+.form-muti  .photo{ float:right; }
+.form-muti table.general td.l,.form-muti table.general td.r{
+	font-size:14px; height:24px; padding:0px 5px; }
+
+
+	div.employment div.title, div.employment div.company, div.employment div.industry {
+		margin-left:30px;
+		padding: 3px 0px;
+	}
+
+
+	div.education div.gradDate {
+		font-size:14px;
+		font-weight:bold;
+	}
+	div.education div.school, div.education div.degree, div.education div.major {
+		margin-left:30px;
+		padding: 3px 0px;
+	}
+
+
+
+	.rowButtons{
+		margin: 10px 0px 10px 24px;
+		padding: 0px 0px;
+		text-align: left;
+		vertical-align: top;
+	}
+
+	.rowLeft input.save{
+		margin-left: 10px;
+		margin-bottom: 100px;
+	}
+
+	.imageBorder{
+		border: 1px solid #000000;
+		padding: 3px;
+		float: right;
+		margin: 0px 10px 15px 15px;
+	}
+
+	input.noBox{
+		margin-left: 22px;
+	}
+	input.attachUpload{
+		margin-left: 22px;
+	}
+
+
+	.clear{
+		clear: both;
+	}
+
+/*.boxContainer select.select50,select.select75,select.select100,select.select150,.boxContainer .rowLeft div{
+	font-size: 12px;
+	} vicky*/
+
+	html>body .boxContainer .row .selectMonth,html>body .boxContainer .row .submit{
+		margin: 0px 0px 5px 10px;
+	}
+
+/* Table Container================================================
+=============================================================
+=============================================================*/
+
+/* folders */
+
+#tableContainer table {
+	font-size: 14px;
+	width:756px;
+}
+
+#tableContainer .tbContainer {
+	width:100%;
+}
+
+#tableContainer .tbContainer td {
+	padding-top: 8px;
+	padding-bottom:4px;
+}
+
+
+/*Inbox table styles*/
+
+
+#tableContainer tr.headrow {
+	
+}
+#tableContainer th {
+	text-align:left;
+	font-size: 14px;
+	background-color: #555;
+	color:#fff;
+	padding:8px 4px;
+}
+
+#tableContainer th.folderName {
+	text-align:left;
+}
+#tableContainer
+th.name {
+	width:100px;
+}
+#tableContainer
+th.length,
+th.attachment {
+	width: 20px;
+}
+#tableContainer
+th.timeSent {
+	width: 50px;
+	font-size:14px;
+	padding-right:2px;
+}
+#tableContainer
+th.subject {
+	width: 353px;
+}
+#tableContainer 
+th.description {
+	width:250px;;
+}
+#tableContainer
+th.boxID,
+th.fileDelete {
+	width:20px;
+	text-align:center;
+	padding-left:0px;
+}
+div#middle div.box-title span{
+	background: none repeat scroll 0 0 transparent;
+font-family: arial;
+font-size: 18px;
+font-weight: bold;
+padding-left: 0;
+position: relative;
+top: -5px;
+}
+div#middle div.box-out{
+	width: 99%;
+margin: 20px 0px;
+padding: 4px;
+float: left;
+}
+div#middle .header p{
+	font-size: 16px;
+font-family: robotobold;
+color: #333;
+}
+#tableContainer td {
+	background-color:#ddd;
+	padding-left: 4px;
+	font-size: 12px;
+}
+.form-table{
+	width: 100%;
+	padding-left: 10px;
+}
+input{
+	background-color: white;
+}
+input,#tableContainer select,.form-field textarea{  
+	font-size: 12px;
+padding: 0px 5px;
+border-radius: 3px;
+box-shadow: 0px 0px 2px 0px grey;
+}
+.titleRow{
+	font-size: 14px;
+	background-color: #666666;
+	color: white;
+}
+.titleRow td{
+	background: none repeat scroll 0 0 #999999;
+	border-bottom: 1px solid #666666;
+	color: #FFFFFF;
+	font:robotobold;
+	width: 300px;
+	padding: 5px 10px;
+}
+.venueRow td{
+	border-bottom: 1px solid #EEEEEE;
+padding: 2px 5px;
+}
+.venueRow td div.myScore{
+	background-color: #FFCC00;
+color: #990000;
+}
+table.myRatings tr.venueRow td div.myScore span, table.myRatings tr.venueRow td div.avgScore span{
+	padding-left: 10px;
+}
+.venueRow td div.avgScore{
+	background-color: #990000;
+color: #FFCC00;
+}
+div#middle table.myRatings p, div#middle table.myRatings a span{
+	color: #990000;
+	cursor: pointer;
+}
+div#middle table.myRatings a:hover span{
+	color: #e13267;
+}
+.formContainer{
+	margin-top: 10px;
+
+	width: 600px;
+	border: 2px solid #cccccc;
+}
+#middle a:hover{
+	color: #e13267;
+}
+.form-field{
+	color: #666;
+margin-left: 5px;
+width:40%;
+font-family: robotolight;
+font-size: 12px;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+.form-field p{
+	font-size: 12px;
+	width: 400px;
+}
+input[type="submit"]:active,input[type="submit"]:focus{
+	background-color: #3798FE;
+	color: white;
+}
+input[type="text"],textarea{
+	background-color: #f2f2f2;
+}
+#tableContainer 
+td.subject {
+	background-color:#ddd;
+	padding-left: 0px;
+	font-size: 12px;
+}
+
+#tableContainer
+td.boxID,
+td.fileDelete  {
+	width:20px;
+	text-align:center;
+	padding-left:0px;
+}
+#tableContainer
+td.nameNone  {
+	color:#666;
+}
+#tableContainer
+td.nameComp  {
+	color:#990000;
+}
+#tableContainer 
+td.subject a {
+	color:#333;
+	display:block;
+	width:100%;
+	padding:5px 4px;
+	text-decoration:none;
+}
+#tableContainer td.subject a span{
+	padding-left:4px;
+}
+#tableContainer td.subject a.link {
+	font-weight:bold;
+
+}
+#tableContainer td.subject a.linkRead {
+	font-weight:normal;
+}
+#tableContainer td.subject a:hover {
+	background-color:#fafafa;
+	text-decoration:none;
+	color:#000;
+	margin:0px;
+}
+
+#tableContainer td.timeSent {
+	font-size:12px;
+	color:#666;
+	width: 10px;
+}
+
+
+
+
+#tableContainer
+td.message,
+td.unread,
+td.size {
+	background-color:#EEE;
+	text-align:center;
+	font-size: 12px;
+	padding: 4px;
+	width: 60px;
+}
+#tableContainer td.folderName {
+	background-color:#EEE;
+	text-align:left;
+	font-size: 13px;
+	padding: 4px;
+}
+td.messageTotal, td.unreadTotal, td.sizeTotal {
+	text-align:center;
+	font-weight:bold;
+}
+tr.totalsRow {
+	background-color:#DDD;
+}
+td a.aRename {
+	color: #4C9900;
+	text-decoration:none;
+	font-size:12px;
+	margin-left: 15px;
+}
+td a.aDelete {
+	color: #900;
+	text-decoration:none;
+	font-size:12px;
+}
+td a.aRename:hover, td a.aDelete:hover {
+	text-decoration:underline;
+}
+.deleteSelect, .moveSelect {
+	font-size:12px;
+	margin: 5px 4px 5px 8px;
+}
+.move {
+	font-size:12px;
+	margin: 5px 0px;
+	font-weight:normal;
+}
+
+#right .edit {
+	margin: 10px 5px;
+}
+
+/*.edit a {
+	display:inline;
+	padding:2px 5px;
+	border-top: 1px solid #666;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #666;
+	font-size: 9px;
+	text-decoration:none;
+	background-color:#FFF;
+	color:#000;
+	margin-right: 5px;
+	}*/
+
+
+	.edit a{
+		display:block;
+		width:127px;
+		text-align:center;
+		font-size: 12px;
+		text-decoration:none;
+		color:#666;
+		margin:0 auto;
+		padding:2px 5px;
+		border:1px solid #ddd;
+		background: #EEEEEE url(/images/btn-bg.png) repeat-x center;
+	}
+
+	/* Fix for peek-a-boo bug in IE-mac  \*/
+	* html .edit a {height: 1%;}
+	/* End Fix*/
+/*.edit a:hover {
+	background-color:#99C;
+	text-decoration:none;
+	} remove by vicky*/
+
+	.edit a:hover {
+		background: #EEEEEE url(/images/btn-bg.png) repeat-x center;
+		border:1px solid #ccc;
+	}
+	/*BEGIN Navigation for paged Tables*/
+	div.navigation {
+		width:753px;/* vicky */
+		margin:0px 1px 10px 1px;
+		background-color:#666;/* vicky */
+		text-align:right;
+		font-size:12px;
+		font-weight:bold;
+		color:#FFF;
+		clear:both;
+		padding:6px 0px;/* vicky */
+	}
+	div.navigation span {
+		padding:0px 5px;
+		color:#999;
+		font-weight:normal;
+		background-color:#DDD;
+	}
+	div.navigation a {
+		background-color:#FFF;
+		padding:0px 3px;
+		margin:0px 2px;
+		color:#000;
+		text-decoration:none;
+		border:1px solid #333;
+	}
+	#user div#middle  div.navigation a.on { background:#222; color:#fff; }	
+	div.navigation a:hover {
+		color:#FFF;
+		background-color:#99C;
+	}
+	div.navigation span.messageCount {
+		color:#000;
+	}
+
+	h3.messageTitle {
+		display:block;
+		margin: 20px 20px;
+		font-size: 14px;
+		line-height:18px;
+	}
+
+	h3.messageTitle span.section2 {
+		color:#999;
+	}
+
+	span.messageDetail, div.messageDetail {
+		display:block;
+		margin: 20px 20px;
+		font-size: 14px;
+		line-height:18px;
+	}
+	div.messageDetail span.sender {
+		font-size: 12px;
+		color:#666;
+		font-weight:bold;
+	}
+	div.messageDetail h1 {
+		font-size:20px;
+		font-weight:bold;
+		line-height:26px;
+		margin-bottom: 12px;
+	}
+	div.messageDetail h2 {
+		font-size:16px;
+		font-weight:bold;
+		line-height:20px;
+		margin-bottom: 10px;
+	}
+	div.messageDetail h3 {
+		font-size:13px;
+		font-weight:bold;
+		line-height:16px;
+		margin-bottom: 8px;
+	}
+
+	div.messageDetail p {
+		line-height: 16px;
+		margin-bottom:8px;
+	}
+	div.messageDetail pre {
+		font-family: "Times New Roman", Times, serif;
+		font-size:13px;
+		color:#333;
+	}
+	div.messageDetail blockquote {
+		margin: 5px 0px 5px 20px;
+		border:1px solid #EEE;
+		padding:5px;
+		font-size:12px;
+		color:#666;
+	}
+
+
+
+	div.messageDetail a {
+		color:#990000;
+		text-decoration:none;
+	}
+	div.messageDetail a:hover {
+		color:#000000;
+		text-decoration:underline;
+	}
+	div.messageDetail div.messageDate {
+		margin-top: 20px;
+		font-size: 12px;
+		font-weight:bold;
+		color:#666;
+	}
+
+	div.messageDetail ul, 
+	div.messageDetail ol {
+		margin: 5px 5px 5px 50px;
+	}
+
+
+	div.messageDetail div.section {
+		font-weight:bold;
+		font-size: 12px;
+		color:#333;
+	}
+
+	div.reject {
+		width:auto;
+		margin: 15px 15px;
+		border: 2px dashed #900;
+		padding:10px;
+		background-color: #ffd700;
+		line-height:18px;
+	}
+	div.reject div.title {
+		font-weight:bold;
+	}
+
+	#control {
+		margin: 10px 20px;
+	}
+	#control 
+	input,
+	select {
+		/*font-size:12px; vicky */
+		margin-right: 5px;
+	}
+
+
+
+
+
+
+
+	p.registerAlert {
+		font-size: 12px;
+		color:#990000;
+		margin: 5px 10px 10px 20px;
+	}
+
+	div.languages {
+		float: left;
+		width: 32%;
+	}
+	#user .edit{    
+		margin-bottom: 0 !important;
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+	#user .edit a { padding:5px; font-size:12px; }

@@ -1,0 +1,766 @@
+﻿.center-side{
+  margin-left: 20px;
+}
+.flat11 {
+    float: left;
+    margin-left: 10px;
+}
+
+.property_icon11 {
+    background: url("/images/icon/icon15.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.flat11 .property_icon11 {
+    background-position: 0 -419px;
+}
+
+.flat12 {
+    float: left;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.property_icon12 {
+    background: url("/images/icon/icon15.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+.flat12 .property_icon12 {
+    background-position: 0 -419px;
+}
+#sidebar .sidebar {
+    float: right;
+    position: relative;
+    width: 180px;
+}
+
+#center-side {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.information img {
+    margin: 0 auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.information h2 {
+    font-size: 18px;
+    font-family: robotobold_condensed;
+    margin: 10px auto;
+    color: #4a4a4a;
+}
+
+.information p {
+    font-size: 12px;
+    font-family: robotolight;
+    color: #4a4a4a;
+    margin: 10px auto;
+}
+
+.articleItem-artic {
+    box-shadow: 0px 1px 3px 1px #D5D5D5;
+    height: 100%;
+    background-color: white;
+}
+
+.description {
+    font-size: 12px;
+    font-family: robotolight;
+    color: black;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 0.3px;
+}
+
+.articleItem {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.articleItem h3,.articleItem h3 a,.articleItem h3 a:link,.articleItem h3 a:visited{
+    font-size: 15px;
+    color: #4a4a4a;
+    font-family: robotomedium;
+}
+.articleItem h3 span{
+    color: black;
+}
+
+
+.spread a {
+    color: #4a4a4a;
+    font-size: 20px;
+    font-family: "robotocondensed";
+}
+
+    .spread a:hover {
+        color: #e13627;
+    }
+
+.articlePhoto {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.articlePhoto img{
+    width: 150px;
+}
+#Tab {
+    width: 610px;
+}
+
+.clear-5 {
+    padding-top: 50px;
+}
+.clear-10{
+    clear:both;
+}
+#gallery-box{
+    margin-bottom: 20px;
+}
+/*菜单class*/
+.Menubox {
+    width: 100%;
+    line-height: 28px;
+    border-top: 1px solid #bebebe;
+    text-decoration-color: #f3f3f3;
+}
+
+#contentContainer {
+    text-align: left;
+}
+
+.new {
+    padding-left: 10px;
+    font-family: robotobold_condensed;
+}
+
+.Menubox ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f3f3f3;
+}
+
+.Menubox li {
+    border-right: 1px solid #e8e8e7;
+    float: left;
+    display: block;
+    cursor: pointer;
+    width: 24.8%;
+    text-align: center;
+    background-color: #f3f3f3;
+    font-size: 16px;
+    font-family: Roboto-Condensed;
+    height: 50px;
+    line-height: 50px;
+}
+.Menubox li:nth-child(4){
+    border-right: 0;
+}
+
+    .Menubox li.hover {
+        border-top: 2px solid red;
+        padding: 0px;
+        width: 24.6%;
+        background-color: white;
+        color: red;
+        cursor: pointer;
+        height: 48px;
+        line-height: 50px;
+    }
+
+
+#Menubox li.on a {
+    color: #e23628;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #e23628;
+}
+
+.Contentbox {
+    clear: both;
+    border-top: none;
+    height: 0px auto;
+    background-color: white;
+    float: left;
+    padding-top: 20px;
+    width: 530px;
+}
+
+#discover {
+    margin-top: 10px;
+    width: 510px;
+    height: 155px;
+    background-color: #f3f3f3;
+}
+
+#discover-d {
+    margin-top: 10px;
+    width: 510px;
+    height: 155px;
+    background-color: #f3f3f3;
+}
+
+#company_logo {
+    width: 150px;
+    height: 100px;
+}
+
+#dis {
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+}
+
+#disc {
+    margin-top: 10px;
+    width: 370px;
+    height: 0px auto;
+    float: left;
+    margin-left: 15px;
+}
+
+.chenge {
+    opacity: 0.3;
+}
+
+#pic {
+    cursor: pointer;
+    color: red;
+}
+
+#h a {
+    color: black;
+    font-size: 20px;
+}
+
+    #h a:hover {
+        color: red;
+    }
+
+.being {
+    font-size: 12px;
+    color: black;
+    font-family: Roboto Medim;
+}
+
+.by {
+    color: #d8d8d8;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Georgia-BoldItalic;
+}
+/*菜单*/
+
+/*结束*/
+.bown {
+    width: 510px;
+    background-color: #f3f3f3;
+    margin-bottom: 10px;
+}
+
+.clear-15 {
+}
+
+.bow {
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+}
+
+.bo {
+    margin-top: 10px;
+    width: 370px;
+    height: 0px auto;
+    float: left;
+    margin-left: 15px;
+}
+
+#pic1 {
+    cursor: pointer;
+    color: red;
+}
+/*上面是选项卡*/
+
+.vince {
+    font-size: 10px;
+    color: black;
+    font-style: italic;
+    font-family: georgia;
+}
+
+
+.articleItem a, .articleItem a:visited, .articleItem a:link {
+    color: #E13627;
+    font-family: robotoregular;
+}
+
+.gogo {
+    width: 130px;
+    margin-left: 10px;
+    height: 0px auto;
+    font: Roboto Regular;
+    font-size: 12px;
+    color: #949694;
+}
+
+
+.property_icon {
+    background-image: url("/images/icon/icon15.png");
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-top: 5px;
+}
+
+.flat .property_icon {
+    background-position: -16px 0;
+    margin-top: 16px;
+}
+
+.flat {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: robotocondensed;
+    color: black;
+    float: left;
+}
+
+.property_icon1 {
+    background-image: url("http://localhost:5916/enjoy部分网页1 2/enjoy部分网页1/images/icon/icon15.png");
+    width: 14px;
+    height: 14px;
+    float: left;
+}
+
+
+.flat1 .property_icon1 {
+    background-position: -16px -15px;
+    margin-top: 16px;
+}
+
+.flat1 {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: robotocondensed;
+    color: black;
+    float: left;
+}
+
+.property_icon2 {
+    background-image: url("http://localhost:5916/enjoy部分网页1 2/enjoy部分网页1/images/icon/icon15.png");
+    width: 14px;
+    height: 14px;
+    float: left;
+}
+
+.flat2 .property_icon2 {
+    background-position: -16px -30px;
+    margin-top: 16px;
+}
+
+    .flat2 .property_icon2 :hover {
+        margin-left: 16px;
+    }
+
+.flat2 {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: robotocondensed;
+    color: black;
+    float: left;
+}
+
+.property_icon3 {
+    background-image: url("http://localhost:5916/enjoy部分网页1 2/enjoy部分网页1/images/icon/icon15.png");
+    width: 14px;
+    height: 14px;
+    float: left;
+}
+
+.flat3 .property_icon3 {
+    background-position: -16px -45px;
+    margin-top: 16px;
+}
+
+    .flat3 .property_icon3 :hover {
+        margin-left: 16px;
+    }
+
+.flat3 {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: robotocondensed;
+    color: black;
+    float: left;
+}
+
+/*显示图片*/
+.Menubox li {
+    display: inline-block;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+    .Menubox li.h_nav_over a {
+        color: red;
+    }
+
+        .Menubox li.h_nav_over a .tabg {
+            background-position: 0 0;
+            width: 15px;
+            height: 15px;
+        }
+
+        .Menubox li.h_nav_over a .box_o {
+            background-position: 0 -15px;
+            width: 15px;
+            height: 15px;
+        }
+
+        .Menubox li.h_nav_over a .box_n {
+            background-position: 0 -30px;
+            width: 15px;
+            height: 15px;
+        }
+
+        .Menubox li.h_nav_over a .box_set {
+            background-position: 0 -45px;
+            width: 15px;
+            height: 15px;
+        }
+
+.box_tab a {
+    line-height: 30px;
+    display: block;
+    width: 150px;
+    height: 50px;
+    color: gray;
+    font-size: 16px;
+    font-family: robotocondensed;
+    color: #9b9b9b;
+}
+
+    .box_tab a div {
+        margin-top: 17px;
+        margin-left: 40px;
+        float: left;
+        background: url(../images/icon/icon15.png) no-repeat -15px 0;
+        width: 15px;
+        height: 15px;
+    }
+
+    .box_tab a:hover {
+        color: red;
+    }
+
+        .box_tab a:hover div {
+            background: url(../images/icon/icon15.png) no-repeat 0 0;
+        }
+
+.tabg {
+    float: left;
+}
+
+.tabb {
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/*第二个*/
+.box_b a {
+    line-height: 30px;
+    display: block;
+    width: 150px;
+    height: 50px;
+    color: gray;
+    font-size: 16px;
+    font-family: robotocondensed;
+    color: #9b9b9b;
+}
+
+    .box_b a div {
+        margin-top: 17px;
+        margin-left: 30px;
+        float: left;
+        background: url(../images/icon/icon15.png) no-repeat -15px -15px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .box_b a:hover {
+        color: red;
+    }
+
+        .box_b a:hover div {
+            background: url(../images/icon/icon15.png) no-repeat 0 -15px;
+        }
+
+.box_o {
+    float: left;
+}
+
+.box_x {
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/*第三个*/
+.box_nav a {
+    line-height: 30px;
+    display: block;
+    width: 150px;
+    height: 50px;
+    color: gray;
+    font-size: 16px;
+    font-family: robotocondensed;
+    color: #9b9b9b;
+}
+
+    .box_nav a div {
+        margin-top: 17px;
+        margin-left: 45px;
+        float: left;
+        background: url(../images/icon/icon15.png) no-repeat -15px -30px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .box_nav a:hover {
+        color: red;
+    }
+
+        .box_nav a:hover div {
+            background: url(../images/icon/icon15.png) no-repeat 0 -30px;
+        }
+
+.box_n {
+    float: left;
+}
+
+.box_a {
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+/*第四个*/
+.box_box a {
+    line-height: 30px;
+    display: block;
+    width: 150px;
+    height: 50px;
+    color: gray;
+    font-size: 16px;
+    font-family: robotocondensed;
+    color: #9b9b9b;
+}
+
+    .box_box a div {
+        margin-top: 17px;
+        margin-left: 23px;
+        float: left;
+        background: url(../images/icon/icon15.png) no-repeat -15px -45px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .box_box a:hover {
+        color: red;
+    }
+
+        .box_box a:hover div {
+            background: url(../images/icon/icon15.png) no-repeat 0 -45px;
+        }
+
+.box_set {
+    float: left;
+}
+
+.box_settab {
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#con_one_1 {
+    border-right: 4px solid #f3f3f3;
+}
+
+#con_one_2 {
+    border-right: 4px solid #f3f3f3;
+}
+
+#con_one_3 {
+    border-right: 4px solid #f3f3f3;
+}
+
+#con_one_4 {
+    border-right: 4px solid #f3f3f3;
+}
+
+.grey {
+    margin-left: 5px;
+    float: left;
+    position: absolute;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.run, .static {
+    width: 50px;
+}
+
+    .run li {
+        border-radius: 10px;
+    }
+
+.p {
+    float: left;
+    border-radius: 10px;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+
+.static ul li.active {
+    opacity: 1;
+    color: red;
+}
+
+.run li {
+    list-style-type: none;
+    background-color: #9b9b9b;
+    width: 10px;
+    height: 10px;
+}
+
+.static ul {
+    width: 25px;
+}
+
+.static li {
+    z-index: 2;
+    position: fixed;
+    top: 100px;
+    opacity: 0;
+}
+
+.con_gray {
+    margin-left: 13px;
+    float: left;
+}
+
+
+.run_n {
+    margin-top: 330px;
+}
+
+.run_u {
+    margin-top: 300px;
+}
+
+.run_run {
+    width: 50px;
+    color: black;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: robotobold_condensed;
+}
+
+.ru {
+    margin-left: 20px;
+    width: 50px;
+    color: #e13627;
+    font-size: 16px;
+    font-family: robotobold_condensed;
+}
+
+.box_agu {
+    margin-left: 20px;
+    width: 50px;
+    color: #dbdbdb;
+    font-size: 14px;
+    font-family: robotobold_condensed;
+}
+
+.ruu {
+    margin-left: 20px;
+    width: 50px;
+    font-size: 10px;
+    color: #dbdbdb;
+    font-family: robotolight;
+}
+
+.box_ru {
+    margin-left: 20px;
+    width: 50px;
+    color: #e13627;
+    font-size: 16px;
+    font-family: robotobold_condensed;
+}
+
+.box_ruu {
+    margin-left: 20px;
+    width: 50px;
+    font-size: 10px;
+    color: #dbdbdb;
+    font-family: robotolight;
+}
+
+.formx {
+    width: 600px;
+}
+
+
+.con_s {
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+.run {
+    margin-top: 10px;
+}
+/*events left side*/
+.buysell .classify{
+    max-width: none!important;
+    margin-bottom: 5px;
+    height: auto;
+}
+.buysell .bdate{
+    border-left: none;
+    width: 150px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+.buysell .btext{
+    padding-bottom: 5px;
+}
+#gallery-box .box .head{
+    text-align: center;
+}
+@media only screen and (max-width: 1108px){
+    .static li{
+        position: absolute;
+        top: inherit;
+    }
+}

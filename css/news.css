@@ -1,0 +1,170 @@
+﻿
+.articleItem-tab img {
+    width: 170px;
+    height: 110px;
+}
+
+.right-side {
+    width: 220px;
+    float: right;
+    position: relative;
+    margin-top: 40px;
+}
+
+#center-side {
+    position: relative;
+    float: left;
+    width: 810px;
+}
+
+.information h2 {
+    font-size: 18px;
+    font-family: robotobold_condensed;
+    margin: 10px auto;
+    color: #4a4a4a;
+}
+
+.information p {
+    font-size: 12px;
+    font-family: robotolight;
+    color: #4a4a4a;
+    margin: 10px auto;
+}
+
+.property {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+    .property .pdate {
+        border-bottom: 1px solid #dbdbdb;
+        margin: 0 auto;
+        position: relative;
+        font-style: italic;
+        font-family: georgia;
+        height: 14px;
+        width: 100%;
+        overflow: hidden;
+        font-size: 11px;
+        color: #9b9ba1;
+        padding-bottom: 20px;
+    }
+
+
+
+.articleItem-artic {
+    margin-top: 50px;
+    border: 1px solid red;
+}
+
+.description {
+    font-size: 12px;
+    font-family: robotolight;
+    color: black;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.details {
+    font-size: 12px;
+    font-family: robotolight;
+    color: black;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.articleItem {
+    padding: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.more a {
+    padding-left: 10px;
+    color: #E13627;
+    font-family: robotoregular;
+}
+
+.articleItem a, .articleItem a:visited, .articleItem a:link {
+    color: #E13627;
+    font-family: robotoregular;
+}
+
+.vince a, .vince a:visited, .vince a:link {
+    color: black;
+}
+
+    .vince a:hover {
+        color: #E13627;
+    }
+
+.finday {
+    font-size: 12px;
+    font-family: robotolight;
+    color: #9B9B9B;
+    padding-left: 15px;
+}
+
+.spread a {
+    color: #4a4a4a;
+    font-size: 15px;
+    font-family: "robotocondensed";
+}
+
+    .spread a:hover {
+        color: #e13627;
+    }
+
+.articlePhoto {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+#contentContainer {
+    text-align: left;
+}
+
+.new {
+    padding-left: 10px;
+    font-family: robotobold_condensed;
+}
+
+.Contentbox {
+    margin-left: 12px;
+    clear: both;
+    margin-top: 10px;
+    border-top: none;
+    height: 0px auto;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.bown {
+    margin-top: 10px;
+    width: 583px;
+    background-color: #f3f3f3;
+}
+
+
+#spaon {
+    width: 100%;
+    height: 100px;
+}
+
+.articleItem h3 {
+    font-size: 15px;
+    color: #4a4a4a;
+    font-family: robotomedium;
+}
+
+
+.vince a {
+    position: relative;
+    font-style: italic;
+    font-family: georgia;
+    font-size: 10px;
+    color: #9B9BA1;
+}
